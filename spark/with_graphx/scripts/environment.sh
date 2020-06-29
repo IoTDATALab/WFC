@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export SPARK_HOME=/home/dns/spark-2.1.2-bin-hadoop2.7
+export SCALA_HOME=/usr/bin/scala
+export HDFS_PATH=hdfs://10.0.0.1:9000
+export SPARK_MASTER=spark://10.0.0.1:7077
+export SPARK_DRIVER_MEMORY=300g
+export SPARK_DRIVER_MAXRESULTSIZE=20g
+export SPARK_KRYOSERIALIZER_MAXRESULTSIZE=2000m
+export SPARK_DEFAULT_PARALLELISM=200
+export SPARK_NUM_EXECUTORS=4
+export SPARK_EXECUTORS_MEMORY=500g
+export SPARK_EXECUTORS_CORES=48
